@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CA284133-D4D4-4948-81C7-246E309CD288"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "lab1/model.hpp"
@@ -16,38 +16,53 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
             endingLineNumber = "138"
-            landmarkName = "countProbDensity(partitions)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  uuid = "CA284133-D4D4-4948-81C7-246E309CD288 - e3bd749dc7e524ae"
-                  shouldBeEnabled = "Yes"
+                  uuid = "CA284133-D4D4-4948-81C7-246E309CD288 - 2179a20bce034142"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Model_t&lt;RandomGenerator&lt;std::__1::bernoulli_distribution, 2&gt;, 10000ul&gt;::countProbDensity(double)"
+                  symbolName = "Model_t&lt;RandomGenerator&lt;std::__1::uniform_real_distribution&lt;double&gt;, int, int&gt;, 10000ul&gt;::countExpectation()"
                   moduleName = "lab1"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/levkargalov/Documents/Polytech%20Info/static_model/lab1/lab1/model.hpp"
+                  urlString = "file:///Users/levkargalov/Documents/Projects/Programming/C++/Math-Statistics/lab1/lab1/model.hpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "247">
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "CA284133-D4D4-4948-81C7-246E309CD288 - e3bd749dc7e524ae"
-                  shouldBeEnabled = "Yes"
+                  uuid = "CA284133-D4D4-4948-81C7-246E309CD288 - 9fbb8642ec6a33cc"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Model_t&lt;RandomGenerator&lt;std::__1::bernoulli_distribution, 2&gt;, 10000ul&gt;::countProbDensity(double)"
+                  symbolName = "Model_t&lt;RandomGenerator&lt;std::__1::binomial_distribution&lt;int&gt;, int, double&gt;, 10000ul&gt;::countExpectation()"
                   moduleName = "lab1"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/levkargalov/Documents/Polytech%20Info/static_model/lab1/lab1/model.hpp"
+                  urlString = "file:///Users/levkargalov/Documents/Projects/Programming/C++/Math-Statistics/lab1/lab1/model.hpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "318">
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "CA284133-D4D4-4948-81C7-246E309CD288 - 5eb02f7bbd23534e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Model_t&lt;RandomGenerator&lt;std::__1::lognormal_distribution&lt;double&gt;, double, double&gt;, 10000ul&gt;::countExpectation()"
+                  moduleName = "lab1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/levkargalov/Documents/Projects/Programming/C++/Math-Statistics/lab1/lab1/model.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -64,8 +79,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "141"
             endingLineNumber = "141"
-            landmarkName = "countProbDensity(partitions)"
-            landmarkType = "7">
+            landmarkName = "countExpectation()"
+            landmarkType = "9">
             <Locations>
                <Location
                   uuid = "ED3C9549-A262-4244-AAA5-18F39C7F9164 - 812d8b097cd82042"
@@ -142,8 +157,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "121"
             endingLineNumber = "121"
-            landmarkName = "countCorrelation()"
-            landmarkType = "7">
+            landmarkName = "getData()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

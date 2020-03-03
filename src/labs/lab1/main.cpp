@@ -36,7 +36,6 @@ void gen_tester(std::string file_path, const Args& ... args)
     
     ExelWriter exel(file_path);
     exel << m1 << m2 << m3;
-    
 }
 
 void lab2()

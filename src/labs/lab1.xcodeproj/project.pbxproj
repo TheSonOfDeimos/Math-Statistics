@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7274452240272B5007173C0 /* libOpenXLSX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7274451240272B5007173C0 /* libOpenXLSX.dylib */; };
-		E727445324027355007173C0 /* libOpenXLSX.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E7274451240272B5007173C0 /* libOpenXLSX.dylib */; };
 		E741713E23FB362D008B2298 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E741713D23FB362D008B2298 /* main.cpp */; };
+		E7C3D6F5240EFF4D001CFCB5 /* libOpenXLSX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C3D6F4240EFF4C001CFCB5 /* libOpenXLSX.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,13 +21,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		E741714723FB4DFD008B2298 /* Embed Libraries */ = {
+		E7C3D6F3240EFF30001CFCB5 /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E727445324027355007173C0 /* libOpenXLSX.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,11 +34,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E7274451240272B5007173C0 /* libOpenXLSX.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenXLSX.dylib; path = ../OpenXLSX/install/lib/libOpenXLSX.dylib; sourceTree = "<group>"; };
 		E741713A23FB362D008B2298 /* lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		E741713D23FB362D008B2298 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E741714923FBB644008B2298 /* writer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = writer.hpp; sourceTree = "<group>"; };
 		E741714C23FBB6B2008B2298 /* model.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = model.hpp; sourceTree = "<group>"; };
+		E7C3D6F4240EFF4C001CFCB5 /* libOpenXLSX.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenXLSX.dylib; path = ../../OpenXLSX/install/lib/libOpenXLSX.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7274452240272B5007173C0 /* libOpenXLSX.dylib in Frameworks */,
+				E7C3D6F5240EFF4D001CFCB5 /* libOpenXLSX.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +58,7 @@
 			children = (
 				E741713C23FB362D008B2298 /* lab1 */,
 				E741713B23FB362D008B2298 /* Products */,
-				E7274451240272B5007173C0 /* libOpenXLSX.dylib */,
+				E7C3D6F4240EFF4C001CFCB5 /* libOpenXLSX.dylib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +90,7 @@
 				E741713623FB362D008B2298 /* Sources */,
 				E741713723FB362D008B2298 /* Frameworks */,
 				E741713823FB362D008B2298 /* CopyFiles */,
-				E741714723FB4DFD008B2298 /* Embed Libraries */,
+				E7C3D6F3240EFF30001CFCB5 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -197,8 +195,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenXLSX/install/include\"";
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/OpenXLSX/install/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../OpenXLSX/install/include\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../OpenXLSX/install/lib\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -251,8 +249,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenXLSX/install/include\"";
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/OpenXLSX/install/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../OpenXLSX/install/include\"";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../OpenXLSX/install/lib\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -264,8 +262,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = ../OpenXLSX/install/Include;
-				LIBRARY_SEARCH_PATHS = ../OpenXLSX/install/lib;
+				HEADER_SEARCH_PATHS = ../../OpenXLSX/install/Include;
+				LIBRARY_SEARCH_PATHS = ../../OpenXLSX/install/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,8 +272,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = ../OpenXLSX/install/Include;
-				LIBRARY_SEARCH_PATHS = ../OpenXLSX/install/lib;
+				HEADER_SEARCH_PATHS = ../../OpenXLSX/install/Include;
+				LIBRARY_SEARCH_PATHS = ../../OpenXLSX/install/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

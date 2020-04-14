@@ -1,3 +1,9 @@
 .DS_Store
 DerivedData
 OpenXLSX/*
+**/.vscode
+*_temp.tex
+*.fls
+*.toc
+*.gz
+*.log
